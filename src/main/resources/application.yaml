@@ -1,0 +1,15 @@
+ktor:
+  application:
+    modules:
+      - io.abcdev.ApplicationKt.module
+  deployment:
+    port: 8080
+
+database:
+  jdbcUrl: ${DATABASE_URL:jdbc:postgresql://localhost:5432/MiAulaDigitalDB}
+  driverClassName: org.postgresql.Driver
+  username: ${DATABASE_USER:postgres}
+  password: ${DATABASE_PASSWORD:postgres}
+  maximumPoolSize: 10
+  autoCreateSchema: ${DATABASE_AUTO_CREATE_SCHEMA:false}
+
