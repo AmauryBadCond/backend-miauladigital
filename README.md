@@ -7,8 +7,27 @@ Backend en Ktor para tu app Compose Multiplatform.
 ```bash
 DATABASE_URL=jdbc:postgresql://localhost:5432/MiAulaDigitalDB \
 DATABASE_USER=postgres \
-DATABASE_PASSWORD=tu_password \
+DATABASE_PASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc \
 ./gradlew run
+```
+
+En Railway puedes usar cualquiera de estas dos opciones:
+
+```bash
+DATABASE_URL=jdbc:postgresql://shinkansen.proxy.rlwy.net:56794/RailwayAppDB?sslmode=require
+DATABASE_USER=postgres
+DATABASE_PASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
+```
+
+o bien las variables nativas de Railway/Postgres:
+
+```bash
+PGHOST=shinkansen.proxy.rlwy.net
+PGPORT=56794
+PGDATABASE=RailwayAppDB
+PGUSER=postgres
+PGPASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
+PGSSLMODE=require
 ```
 
 Si quieres que el servidor cree tablas faltantes solo en desarrollo:

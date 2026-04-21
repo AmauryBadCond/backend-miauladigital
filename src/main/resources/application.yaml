@@ -6,9 +6,10 @@ ktor:
     port: ${PORT:8080}
 
 database:
-  jdbcUrl: ${DATABASE_URL:jdbc:postgresql://localhost:5432/MiAulaDigitalDB}
+  jdbcUrl: ${DATABASE_URL:jdbc:postgresql://shinkansen.proxy.rlwy.net:56794/RailwayAppDB?sslmode=require}
   driverClassName: org.postgresql.Driver
   username: ${DATABASE_USER:postgres}
   password: ${DATABASE_PASSWORD:postgres}
   maximumPoolSize: 10
   autoCreateSchema: ${DATABASE_AUTO_CREATE_SCHEMA:false}
+  sslMode: ${PGSSLMODE:require}
