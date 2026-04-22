@@ -24,7 +24,7 @@ o bien las variables nativas de Railway/Postgres:
 ```bash
 PGHOST=shinkansen.proxy.rlwy.net
 PGPORT=56794
-PGDATABASE=RailwayAppDB
+PGDATABASE=railway
 PGUSER=postgres
 PGPASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
 PGSSLMODE=require
