@@ -14,7 +14,7 @@ DATABASE_PASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
 En Railway puedes usar cualquiera de estas dos opciones:
 
 ```bash
-DATABASE_URL=jdbc:postgresql://shinkansen.proxy.rlwy.net:56794/railway?sslmode=require
+DATABASE_URL=jdbc:postgresql://postgres.railway.internal:5432/railway?sslmode=require
 DATABASE_USER=postgres
 DATABASE_PASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
 ```
@@ -22,8 +22,8 @@ DATABASE_PASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
 o bien las variables nativas de Railway/Postgres:
 
 ```bash
-PGHOST=shinkansen.proxy.rlwy.net
-PGPORT=56794
+PGHOST=postgres.railway.internal
+PGPORT=5432
 PGDATABASE=railway
 PGUSER=postgres
 PGPASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
