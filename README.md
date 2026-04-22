@@ -5,9 +5,9 @@ Backend en Ktor para tu app Compose Multiplatform.
 ## Ejecutar localmente
 
 ```bash
-DATABASE_URL=jdbc:postgresql://localhost:5432/MiAulaDigitalDB \
-DATABASE_USER=postgres \
-DATABASE_PASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc \
+DATABASE_URL=jdbc:postgresql://localhost:5432/MiAulaDigitalDB
+DATABASE_USER=postgres
+DATABASE_PASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
 ./gradlew run
 ```
 
