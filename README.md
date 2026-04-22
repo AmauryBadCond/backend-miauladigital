@@ -7,7 +7,7 @@ Backend en Ktor para tu app Compose Multiplatform.
 ```bash
 DATABASE_URL=jdbc:postgresql://localhost:5432/railway
 DATABASE_USER=postgres
-DATABASE_PASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
+DATABASE_PASSWORD=postBad01
 ./gradlew run
 ```
 
@@ -16,7 +16,7 @@ En Railway puedes usar cualquiera de estas dos opciones:
 ```bash
 DATABASE_URL=jdbc:postgresql://postgres:XJkhxCqYgZRnORzYElLBayChcLHQeXTc@postgres.railway.internal:5432/railway
 DATABASE_USER=postgres
-DATABASE_PASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
+DATABASE_PASSWORD=postBad01
 ```
 
 o bien las variables nativas de Railway/Postgres:
@@ -26,7 +26,7 @@ PGHOST=postgres.railway.internal
 PGPORT=5432
 PGDATABASE=railway
 PGUSER=postgres
-PGPASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
+PGPASSWORD=postBad01
 PGSSLMODE=require
 ```
 
