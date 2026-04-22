@@ -5,7 +5,7 @@ Backend en Ktor para tu app Compose Multiplatform.
 ## Ejecutar localmente
 
 ```bash
-DATABASE_URL=jdbc:postgresql://localhost:5432/MiAulaDigitalDB
+DATABASE_URL=jdbc:postgresql://localhost:5432/railway
 DATABASE_USER=postgres
 DATABASE_PASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
 ./gradlew run
@@ -14,7 +14,7 @@ DATABASE_PASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
 En Railway puedes usar cualquiera de estas dos opciones:
 
 ```bash
-DATABASE_URL=jdbc:postgresql://shinkansen.proxy.rlwy.net:56794/RailwayAppDB?sslmode=require
+DATABASE_URL=jdbc:postgresql://shinkansen.proxy.rlwy.net:56794/railway?sslmode=require
 DATABASE_USER=postgres
 DATABASE_PASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
 ```
