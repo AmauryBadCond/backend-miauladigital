@@ -8,8 +8,8 @@ ktor:
 database:
   jdbcUrl: ${DATABASE_URL:jdbc:postgresql://shinkansen.proxy.rlwy.net:56794/railway?sslmode=require}
   driverClassName: org.postgresql.Driver
-  username: ${DATABASE_USER:postgres}
-  password: ${DATABASE_PASSWORD:postgres}
+  username: postgres
+  password: XJkhxCqYgZRnORzYElLBayChcLHQeXTc
   maximumPoolSize: 10
   autoCreateSchema: ${DATABASE_AUTO_CREATE_SCHEMA:false}
   sslMode: ${PGSSLMODE:require}
