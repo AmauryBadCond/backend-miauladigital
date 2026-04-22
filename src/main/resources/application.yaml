@@ -6,7 +6,7 @@ ktor:
     port: ${PORT:8080}
 
 database:
-  jdbcUrl: ${DATABASE_URL:jdbc:postgresql://postgres:XJkhxCqYgZRnORzYElLBayChcLHQeXTc@postgres.railway.internal:5432/railway}
+  jdbcUrl: ${DATABASE_URL:jdbc:postgresql://shinkansen.proxy.rlwy.net:56794/railway?sslmode=require}
   driverClassName: org.postgresql.Driver
   username: ${DATABASE_USER:postgres}
   password: ${DATABASE_PASSWORD:postgres}
