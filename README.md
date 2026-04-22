@@ -14,7 +14,7 @@ DATABASE_PASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
 En Railway puedes usar cualquiera de estas dos opciones:
 
 ```bash
-DATABASE_URL=jdbc:postgresql://postgres.railway.internal:5432/railway?sslmode=require
+DATABASE_URL=jdbc:postgresql://postgres:XJkhxCqYgZRnORzYElLBayChcLHQeXTc@postgres.railway.internal:5432/railway
 DATABASE_USER=postgres
 DATABASE_PASSWORD=XJkhxCqYgZRnORzYElLBayChcLHQeXTc
 ```
